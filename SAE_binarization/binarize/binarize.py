@@ -17,11 +17,11 @@ util.init()
 warnings.filterwarnings('ignore')
 K.set_image_data_format('channels_last')
 
-if K.backend() == 'tensorflow':
-    import tensorflow as tf    # Memory control with Tensorflow
-    config = tf.compat.v1.ConfigProto()
-    config.gpu_options.allow_growth=True
-    sess = tf.compat.v1.Session(config=config)
+#if K.backend() == 'tensorflow':
+#    import tensorflow as tf    # Memory control with Tensorflow
+#    config = tf.compat.v1.ConfigProto()
+#    config.gpu_options.allow_growth=True
+#    sess = tf.compat.v1.Session(config=config)
 
 
 # ----------------------------------------------------------------------------
