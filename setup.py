@@ -13,5 +13,5 @@ setup(
     packages=find_packages(include=['SAE_binarization', 'SAE_binarization.*']),
     install_requires=requirements,
     package_data={"":["MODELS/*.h5"]},
-    python_requires=">=3.7.5"
+    python_requires=">=3.7.3"
 )
